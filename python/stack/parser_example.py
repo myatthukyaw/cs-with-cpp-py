@@ -24,7 +24,7 @@ def is_balanced(input_str : str) -> bool:
 
 if __name__ == "__main__":
 
-    input_str = "{[(])}"
+    input_str = "{([[]])}"
     
     if is_balanced(input_str):
         print("Input string is balanced")
